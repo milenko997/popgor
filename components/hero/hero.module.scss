@@ -22,12 +22,6 @@
     }
 }
 
-// @media (min-width: 992px) {
-//     .heroContainer {
-        
-//     }
-// }
-
 .heroContent {
     order: 1;
 
@@ -36,11 +30,6 @@
     }
 }
 
-// @media (min-width: 992px) {
-//     .heroContent {
-//         order: 1;
-//     }
-// }
 
 .heroTag {
     display: inline-block;
@@ -87,12 +76,6 @@
     }
 }
 
-// @media (min-width: 992px) {
-//     .heroImage {
-//         order: 2;
-//     }
-// }
-
 .heroImg {
     width: 100%;
     aspect-ratio: 4/3;
@@ -106,7 +89,7 @@
     bottom: -20px;
     left: -20px;
     background-color: $color-primary;
-    color: white;
+    color: $color-white;
     padding: 1.25rem 1.5rem;
     border-radius: $radius-lg;
     text-align: center;
