@@ -5,6 +5,7 @@ import About from "@/components/about";
 import Products from "@/components/products";
 import Gallery from "@/components/gallery";
 import Partners from "@/components/partners";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Products />
         <Gallery />
         <Partners />
+        <Contact />
       </main>
       <Footer />
     </>
