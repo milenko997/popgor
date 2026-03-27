@@ -15,6 +15,10 @@
     background-color: $color-bg-light;
     border-radius: $radius-lg;
     padding: 2rem;
+
+    @include respond (md) {
+        padding: 1.25rem;
+    }
 }
 
 .contactItem {

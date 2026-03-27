@@ -30,7 +30,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.heroStats}>
+            <div className={`${styles.heroStats} reveal`}>
                 <div className={styles.heroStat}>
                     <span className={styles.heroStatNumber}>5000+</span>
                     <span className={styles.heroStatLabel}>Projects Completed</span>

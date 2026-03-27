@@ -12,7 +12,6 @@
     border-radius: $radius-lg;
     overflow: hidden;
     box-shadow: 0 4px 20px $color-shadow;
-    transition: transform $transition-base, box-shadow $transition-base;
 }
 
 .materialCard:hover {

@@ -22,7 +22,7 @@ const images = [
         alt: 'Construction Project 4'
     },
     {
-        src: 'https://images.unsplash.com/photo-1590644365607-1c5a4e3a43a5?w=400&q=80',
+        src: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&q=80',
         alt: 'Construction Project 5'
     },
     {
