@@ -1,2 +1,89 @@
 @use "@/styles/variables" as *;
 @use "@/styles/mixins" as *;
+
+.footer {
+  background-color: $color-text-dark;
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.container {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+
+.footerLogo {
+  font-family: $font-heading;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footerLogoAccent {
+  color: $color-primary;
+}
+
+.footerTagline {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: $fs-small;
+  max-width: 280px;
+}
+
+.footerHeading {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  color: white;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footerLink {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: $fs-small;
+  transition: color $transition-fast;
+}
+
+.footerLink:hover {
+  color: $color-primary;
+}
+
+.footerList li {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: $fs-small;
+}
+
+.footerNewsletterText {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: $fs-small;
+}
+
+.footerBottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.footerCopyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: $fs-small;
+}
