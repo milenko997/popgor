@@ -1,0 +1,51 @@
+@use "@/styles/variables" as *;
+@use "@/styles/mixins" as *;
+
+.partnersCarousel {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 0;
+
+    &:hover {
+        .partnersTrack {
+            animation-play-state: paused;
+        }
+    }
+}
+
+.partnersTrack {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.partnersSlide {
+    flex: 0 0 auto;
+    padding: 0 2rem;
+}
+
+.partnersLogo {
+    font-family: $font-heading;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $color-text-muted;
+    white-space: nowrap;
+    padding: 1.25rem 2rem;
+    background-color: $color-bg-white;
+    border-radius: $radius-md;
+    box-shadow: 0 2px 12px $color-shadow;
+    transition: color $transition-fast, box-shadow $transition-fast;
+
+    &:hover {
+        color: $color-primary;
+        box-shadow: 0 4px 20px $color-shadow;
+    }
+}
