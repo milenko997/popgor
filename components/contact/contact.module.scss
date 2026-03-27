@@ -3,11 +3,11 @@
 
 .contactGrid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
 
-    @media (min-width: 992px) {
-        grid-template-columns: 1fr 1fr;
+    @include respond(md) {
+        grid-template-columns: 1fr;
     }
 }
 

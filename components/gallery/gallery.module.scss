@@ -6,9 +6,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 
-  @media (max-width: 768px) {
+  @include respond(md) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
   }
 }
 
@@ -32,11 +31,12 @@
 
 .galleryItemLarge {
   grid-column: span 2;
-  aspect-ratio: 2/1;
+  grid-row: span 2;
+  aspect-ratio: 1;
 
-  @media (min-width: 768px) {
-    grid-row: span 2;
-    aspect-ratio: 1;
+  @include respond(md) {
+    grid-column: span 2;
+    aspect-ratio: 16 / 9;
   }
 }
 
@@ -62,7 +62,7 @@
 .galleryZoom {
   width: 56px;
   height: 56px;
-  background-color: #fff;
+  background-color: $color-white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -86,9 +86,12 @@
 }
 
 .lightboxImg {
-  max-width: 90%;
-  max-height: 80%;
+  width: 50%;
   object-fit: contain;
+
+  @include respond(md) {
+    width: 70%;
+  }
 }
 
 .lightboxClose,

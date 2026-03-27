@@ -5,6 +5,10 @@
   background-color: $color-text-dark;
   color: $color-white;
   padding: 4rem 0 2rem;
+
+  @include respond(md) {
+    padding: 2rem 0 2rem;
+  }
 }
 
 .container {
@@ -15,16 +19,15 @@
 
 .footerGrid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 2.5rem;
   margin-bottom: 3rem;
-}
 
-@media (min-width: 768px) {
-  .footerGrid {
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+  @include respond(md) {
+    grid-template-columns: 1fr;
   }
 }
+
 
 .footerLogo {
   font-family: $font-heading;
