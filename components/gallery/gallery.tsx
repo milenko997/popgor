@@ -87,7 +87,7 @@ const Gallery = () => {
                         {images.map((img, index) => (
                             <div
                                 key={index}
-                                className={`${styles.galleryItem} ${img.large ? styles.galleryItemLarge : ''}`}
+                                className={`${styles.galleryItem} ${img.large ? styles.galleryItemLarge : ''} reveal`}
                                 onClick={() => openLightbox(index)}
                             >
                                 <img src={img.src} alt={img.alt} className={styles.galleryImg} />
