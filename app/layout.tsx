@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import './globals.scss';
 import { Outfit, DM_Sans } from "next/font/google";
+import ScrollEffects from "@/components/providers/scrollEffects";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -32,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${outfit.variable} ${dmSans.variable} antialiased`}
       >
-        {children}
+        <ScrollEffects>{children}</ScrollEffects>
       </body>
     </html>
   );

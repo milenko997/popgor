@@ -106,3 +106,36 @@ h3 {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity $transition-slow,
+    transform $transition-slow;
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.reveal:nth-child(3) {
+  transition-delay: 0.15s;
+}
+
+.reveal:nth-child(4) {
+  transition-delay: 0.2s;
+}
+
+.reveal:nth-child(5) {
+  transition-delay: 0.25s;
+}
+
+.reveal:nth-child(6) {
+  transition-delay: 0.3s;
+}
