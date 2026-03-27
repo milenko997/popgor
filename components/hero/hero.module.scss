@@ -5,6 +5,12 @@
     padding-top: calc($header-height + 3rem);
     padding-bottom: 2rem;
     background: linear-gradient(135deg, $color-bg-white 0%, $color-bg-light 100%);
+
+    @include respond(md) {
+        :global(.btn) {
+            width: 100%;
+        }
+    }
 }
 
 .heroContainer {
@@ -29,7 +35,6 @@
         order: 2;
     }
 }
-
 
 .heroTag {
     display: inline-block;
@@ -94,6 +99,10 @@
     border-radius: $radius-lg;
     text-align: center;
     box-shadow: 0 10px 30px rgba(185, 68, 68, 0.3);
+
+    @include respond(md) {
+        display: none;
+    }
 }
 
 .heroBadgeNumber {
@@ -111,6 +120,18 @@
     margin-top: 0.25rem;
 }
 
+.heroStat {
+    @include respond(md) {
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid $color-border;
+
+        &:last-child {
+            padding-bottom: 0;
+            border-bottom: unset;
+        }
+    }
+}
+
 .heroStats {
     max-width: $container-max;
     margin: 4rem auto 0;
@@ -119,6 +140,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     text-align: center;
+
+    @include respond(md) {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        background-color: $color-bg-white;
+        padding: 2rem;
+        border-radius: $radius-lg;
+        box-shadow: 0 4px 20px $color-shadow;
+        margin: 4rem 1.25rem 0;
+    }
 }
 
 .heroStatNumber {
