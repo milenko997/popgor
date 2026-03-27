@@ -2,46 +2,46 @@ import styles from './hero.module.scss';
 
 const Hero = () => {
     return (
-        <section className={styles.hero} id="hero" data-testid="hero-section">
+        <section className={styles.hero} id="pocetna" data-testid="hero-section">
             <div className={styles.heroContainer}>
                 <div className={styles.heroContent}>
-                    <span className={styles.heroTag}>Trusted Since 1998</span>
+                    <span className={styles.heroTag}>Od 2011. godine uz vas</span>
                     <h1 className={styles.heroTitle} data-testid="hero-title">
-                        Quality Building Materials
-                        <span className={styles.heroTitleAccent}>For Every Project</span>
+                        Kvalitetni građevinski materijali
+                        <span className={styles.heroTitleAccent}>za svaki projekat</span>
                     </h1>
                     <p className={styles.heroText} data-testid="hero-text">
-                        Your trusted partner in construction. We supply premium materials that stand the test of time, delivering strength and reliability to builders across the region.
+                        Vaš pouzdan partner u gradnji. Nudimo vrhunske materijale koji garantuju dugotrajnost, čvrstinu i sigurnost — za sve vrste građevinskih radova.
                     </p>
                     <div className={styles.heroActions}>
-                        <a href="#contact" className="btn btn--primary" data-testid="hero-cta">
-                            Get In Touch
+                        <a href="#kontakt" className="btn btn--primary" data-testid="hero-cta">
+                            Kontaktirajte nas
                         </a>
-                        <a href="#materials" className="btn btn--outline" data-testid="hero-explore">
-                            Explore Products
+                        <a href="#materijali" className="btn btn--outline" data-testid="hero-explore">
+                            Istražite proizvode
                         </a>
                     </div>
                 </div>
                 <div className={styles.heroImage}>
                     <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" alt="Construction site" className={styles.heroImg} />
                     <div className={styles.heroImageBadge}>
-                        <span className={styles.heroBadgeNumber}>25+</span>
-                        <span className={styles.heroBadgeText}>Years of Excellence</span>
+                        <span className={styles.heroBadgeNumber}>15+</span>
+                        <span className={styles.heroBadgeText}>godina uspešnog poslovanja</span>
                     </div>
                 </div>
             </div>
             <div className={`${styles.heroStats} reveal`}>
                 <div className={styles.heroStat}>
                     <span className={styles.heroStatNumber}>5000+</span>
-                    <span className={styles.heroStatLabel}>Projects Completed</span>
+                    <span className={styles.heroStatLabel}>realizovanih projekata</span>
                 </div>
                 <div className={styles.heroStat}>
                     <span className={styles.heroStatNumber}>150+</span>
-                    <span className={styles.heroStatLabel}>Partner Companies</span>
+                    <span className={styles.heroStatLabel}>partnerskih kompanija</span>
                 </div>
                 <div className={styles.heroStat}>
                     <span className={styles.heroStatNumber}>100%</span>
-                    <span className={styles.heroStatLabel}>Quality Guaranteed</span>
+                    <span className={styles.heroStatLabel}>garantovan kvalitet</span>
                 </div>
             </div>
         </section>

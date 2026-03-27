@@ -15,16 +15,16 @@ const Partners = () => {
     return (
         <section
             className={`section section--gray ${styles.partners}`}
-            id="partners"
+            id="partneri"
         >
             <div className="container">
                 <div className="section__header">
-                    <span className="section__tag reveal">Trusted By</span>
+                    <span className="section__tag reveal">Veruju nam</span>
                     <h2 className="section__title reveal">
-                        Our Partners
+                        Naši partneri
                     </h2>
                     <p className="section__subtitle reveal">
-                        Working with industry leaders to deliver the best
+                        Saradnja sa vodećim kompanijama u industriji radi isporuke najkvalitetnijih rešenja
                     </p>
                 </div>
 

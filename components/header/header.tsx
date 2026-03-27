@@ -63,36 +63,36 @@ const Header = () => {
                 >
                     <ul className={styles.navList}>
                         <li className={styles.navItem}>
-                            <a href="#about" className={styles.navLink} onClick={closeMenu}>
-                                About
+                            <a href="#o-nama" className={styles.navLink} onClick={closeMenu}>
+                                O nama
                             </a>
                         </li>
 
                         <li className={styles.navItem}>
-                            <a href="#materials" className={styles.navLink} onClick={closeMenu}>
-                                Materials
+                            <a href="#materijali" className={styles.navLink} onClick={closeMenu}>
+                                Materijali
                             </a>
                         </li>
 
                         <li className={styles.navItem}>
-                            <a href="#gallery" className={styles.navLink} onClick={closeMenu}>
-                                Gallery
+                            <a href="#galerija" className={styles.navLink} onClick={closeMenu}>
+                                Galerija
                             </a>
                         </li>
 
                         <li className={styles.navItem}>
-                            <a href="#partners" className={styles.navLink} onClick={closeMenu}>
-                                Partners
+                            <a href="#partneri" className={styles.navLink} onClick={closeMenu}>
+                                Partneri
                             </a>
                         </li>
 
                         <li className={styles.navItem}>
                             <a
-                                href="#contact"
+                                href="#kontakt"
                                 className={`${styles.navLink} ${styles.cta}`}
                                 onClick={closeMenu}
                             >
-                                Contact Us
+                                Kontakt
                             </a>
                         </li>
                     </ul>

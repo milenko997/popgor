@@ -7,54 +7,54 @@ export default function Footer() {
         <div className={style.footerGrid}>
 
           <div className={style.footerBrand}>
-            <a href="#hero" className={style.footerLogo}>
+            <a href="/" className={style.footerLogo}>
               Pop<span className={style.footerLogoAccent}>Gor</span>
             </a>
             <p className={style.footerTagline}>
-              Quality Building Materials for Every Project. Your trusted partner in construction since 1998.
+              Kvalitetni građevinski materijali za svaki tip gradnje. Vaš pouzdan partner u gradnji od 2011. godine.
             </p>
           </div>
 
           <div className={style.footerLinks}>
-            <h4 className={style.footerHeading}>Quick Links</h4>
+            <h4 className={style.footerHeading}>Linkovi</h4>
             <ul className={style.footerList}>
               <li>
-                <a href="#about" className={style.footerLink} data-testid="footer-about">
-                  About Us
+                <a href="#o-nama" className={style.footerLink} data-testid="footer-about">
+                  O nama
                 </a>
               </li>
               <li>
-                <a href="#materials" className={style.footerLink} data-testid="footer-materials">
-                  Materials
+                <a href="#materijali" className={style.footerLink} data-testid="footer-materials">
+                  Materijali
                 </a>
               </li>
               <li>
-                <a href="#gallery" className={style.footerLink} data-testid="footer-gallery">
-                  Gallery
+                <a href="#galerija" className={style.footerLink} data-testid="footer-gallery">
+                  Galerija
                 </a>
               </li>
               <li>
-                <a href="#contact" className={style.footerLink} data-testid="footer-contact">
-                  Contact
+                <a href="#kontakt" className={style.footerLink} data-testid="footer-contact">
+                  Kontak
                 </a>
               </li>
             </ul>
           </div>
 
           <div className={style.footerContact}>
-            <h4 className={style.footerHeading}>Contact Info</h4>
+            <h4 className={style.footerHeading}>Kontak informacije</h4>
             <ul className={style.footerList}>
-              <li>+1 (555) 123-4567</li>
-              <li>info@popgor.com</li>
-              <li>1234 Industrial Drive</li>
-              <li>Construction City, CC 12345</li>
+              <li>+381 60 351 8034</li>
+              <li>pop.gor071@gmail.com</li>
+              <li>Bukovački put 48</li>
+              <li>Petrovaradin, 21132</li>
             </ul>
           </div>
 
           <div className={style.footerNewsletter}>
-            <h4 className={style.footerHeading}>Stay Updated</h4>
+            <h4 className={style.footerHeading}>Budite u toku</h4>
             <p className={style.footerNewsletterText}>
-              Get the latest updates on new materials and special offers.
+              Pratite najnovije informacije o novim materijalima i specijalnim ponudama
             </p>
           </div>
 
@@ -62,8 +62,9 @@ export default function Footer() {
 
         <div className={style.footerBottom}>
           <p className={style.footerCopyright} data-testid="footer-copyright">
-            &copy; 2026 PopGor. All rights reserved.
+            &copy; 2026 PopGor. Sva prava zadrzava.
           </p>
+          <p className={style.footerCopyright}>Website napravio <a href="https://milenkoilic.dev/" target="_blank">Milenko Ilić</a></p>
         </div>
       </div>
     </footer>

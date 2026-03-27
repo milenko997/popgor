@@ -4,15 +4,14 @@ import styles from './contact.module.scss';
 
 const Contact = () => {
     return (
-        <section className={`section ${styles.contact}`} id="contact">
+        <section className={`section ${styles.contact}`} id="kontakt">
             <div className="container">
                 <div className="section__header">
-                    <span className="section__tag reveal">Get In Touch</span>
                     <h2 className="section__title reveal">
-                        Contact Us
+                        Kontaktirajte nas
                     </h2>
                     <p className="section__subtitle reveal">
-                        Ready to start your project? We'd love to hear from you
+                        Spremni ste da započnete radove? Tu smo da odgovorimo na sva vaša pitanja.
                     </p>
                 </div>
 
@@ -27,8 +26,8 @@ const Contact = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4>Phone</h4>
-                                    <p>+1 (555) 123-4567</p>
+                                    <h4>Telefon</h4>
+                                    <a href="tel:+381603518034">+381 60 351 8034</a>
                                 </div>
                             </div>
 
@@ -41,7 +40,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4>Email</h4>
-                                    <p>info@popgor.com</p>
+                                    <a href="mailto:pop.gor071@gmail.com">pop.gor071@gmail.com</a>
                                 </div>
                             </div>
 
@@ -53,10 +52,10 @@ const Contact = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4>Address</h4>
+                                    <h4>Adresa</h4>
                                     <p>
-                                        1234 Industrial Drive<br />
-                                        Construction City, CC 12345
+                                        Bukovački put 48<br />
+                                        Petrovaradin, 21132
                                     </p>
                                 </div>
                             </div>
@@ -69,10 +68,11 @@ const Contact = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4>Working Hours</h4>
+                                    <h4>Radno vreme</h4>
                                     <p>
-                                        Mon - Fri: 7:00 AM - 6:00 PM<br />
-                                        Sat: 8:00 AM - 4:00 PM
+                                        Ponedeljak - Petak: 07:00 - 15:30<br />
+                                        Subota: 07:00 - 14:00<br />
+                                        Nedelja: Ne radimo
                                     </p>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                     </div>
                     <div className={`${styles.contactMap} reveal`}>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596073366!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1657297298519!5m2!1sen!2s"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2810.1802305763867!2d19.88467937694462!3d45.22392174943755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1acd0ab35e61%3A0x2867a9dfdb11a962!2sPOP-GOR!5e0!3m2!1ssr!2srs!4v1774649311140!5m2!1ssr!2srs"
                             width="100%"
                             height="100%"
                             loading="lazy"

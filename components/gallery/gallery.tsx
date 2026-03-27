@@ -73,13 +73,13 @@ const Gallery = () => {
 
     return (
         <>
-            <section className={`${styles.gallery} section`} id="gallery">
+            <section className={`${styles.gallery} section`} id="galerija">
                 <div className="container">
                     <div className="section__header">
-                        <span className="sectionTag">Our Work</span>
-                        <h2 className="sectionTitle">Project Gallery</h2>
+                        <span className="sectionTag">Naši radovi</span>
+                        <h2 className="sectionTitle">Galerija</h2>
                         <p className="sectionSubtitle">
-                            See our materials in action across various construction projects
+                            Isporučujemo građevinski materijal za različite vrste građevinskih radova.
                         </p>
                     </div>
 
