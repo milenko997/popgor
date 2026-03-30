@@ -24,7 +24,7 @@ const Partners = () => {
                         Naši partneri
                     </h2>
                     <p className="section__subtitle reveal">
-                        Saradnja sa vodećim kompanijama u industriji radi isporuke najkvalitetnijih rešenja
+                        Saradnja sa vodećim kompanijama u industriji radi isporuke najkvalitetnijih rešenja.
                     </p>
                 </div>
 

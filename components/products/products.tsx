@@ -10,7 +10,7 @@ const Products = () => {
                         Građevinski materijali
                     </h2>
                     <p className="sectionSubtitle reveal">
-                        Sve što vam je potrebno da uspešno realizujete vaš građevinski projekat
+                        Sve što vam je potrebno da uspešno realizujete vaš građevinski projekat.
                     </p>
                 </div>
 
@@ -23,7 +23,7 @@ const Products = () => {
                                     <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                                 </svg>
                             </div>
-                            <h3 className={styles.materialCardTitle}>Građevinski materijali</h3>
+                            <h3 className={styles.materialCardTitle}>Vezivni materijali</h3>
                             <ul className={styles.materialsWrapper}>
                                 <li className={styles.materialSingle}>cement</li>
                                 <li className={styles.materialSingle}>multibat</li>

@@ -41,14 +41,14 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#kontakt" className={style.footerLink} data-testid="footer-contact">
-                  Kontak
+                  Kontakt
                 </a>
               </li>
             </ul>
           </div>
 
           <div className={style.footerContact}>
-            <h4 className={style.footerHeading}>Kontak informacije</h4>
+            <h4 className={style.footerHeading}>Kontakt informacije</h4>
             <ul className={style.footerList}>
               <li>+381 60 351 8034</li>
               <li>pop.gor071@gmail.com</li>
@@ -60,7 +60,7 @@ export default function Footer() {
           <div className={style.footerNewsletter}>
             <h4 className={style.footerHeading}>Budite u toku</h4>
             <p className={style.footerNewsletterText}>
-              Pratite najnovije informacije o novim materijalima i specijalnim ponudama
+              Pratite najnovije informacije o novim materijalima i specijalnim ponudama.
             </p>
           </div>
 
