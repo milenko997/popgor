@@ -62,20 +62,27 @@
     margin-bottom: 0.5rem;
 }
 
-.materialCardText {
-    font-size: $fs-small;
+.materialsWrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(5, auto);
+}
+
+.materialSingle {
+    position: relative;
+    padding-left: 12px;
+    font-size: $font-size-sm;
     color: $color-text-muted;
-    margin-bottom: 1rem;
 }
 
-.materialCardLink {
-    font-family: $font-heading;
-    font-size: $fs-small;
-    font-weight: 600;
-    color: $color-primary;
-    transition: color $transition-fast;
-}
-
-.materialCardLink:hover {
-    color: $color-primary-hover;
+.materialSingle::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #b94444;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
