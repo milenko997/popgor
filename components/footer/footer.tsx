@@ -68,7 +68,7 @@ export default function Footer() {
 
         <div className={style.footerBottom}>
           <p className={style.footerCopyright} data-testid="footer-copyright">
-            &copy; 2026 PopGor. Sva prava zadrzava.
+            &copy; 2026 PopGor. Sva prava zadržava.
           </p>
           <p className={style.footerCopyright}>Website napravio <a href="https://milenkoilic.dev/" target="_blank">Milenko Ilić</a></p>
         </div>
