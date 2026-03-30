@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     url: 'https://popgor.rs/',
     siteName: 'PopGor',
     type: 'website',
+    images: [
+    {
+      url: "/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "PopGor - građevinski materijal",
+    },
+  ],
   },
   metadataBase: new URL('https://popgor.rs/'),
 };
