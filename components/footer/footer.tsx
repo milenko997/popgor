@@ -1,4 +1,5 @@
 import style from "./footer.module.scss";
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -8,7 +9,12 @@ export default function Footer() {
 
           <div className={style.footerBrand}>
             <a href="/" className={style.footerLogo}>
-              Pop<span className={style.footerLogoAccent}>Gor</span>
+              <Image
+                    src="/popgorlogo.png"
+                    alt="logo"
+                    width={140}
+                    height={200}
+                />
             </a>
             <p className={style.footerTagline}>
               Kvalitetni građevinski materijali za svaki tip gradnje. Vaš pouzdan partner u gradnji od 2011. godine.

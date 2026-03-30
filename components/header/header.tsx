@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import styles from './header.module.scss';
+import Image from 'next/image';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +56,12 @@ const Header = () => {
         >
             <div className={styles.container}>
                 <a href="/" className={styles.logo}>
-                    Pop<span className={styles.logoAccent}>Gor</span>
+                    <Image
+                        src="/popgor_logo_dark.png"
+                        alt="logo"
+                        width={130}
+                        height={100}
+                    />
                 </a>
 
                 <nav
