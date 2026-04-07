@@ -15,7 +15,7 @@ const Products = () => {
                 </div>
 
                 <div className={styles.materialsGrid}>
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-timber">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-binding">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -36,7 +36,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-gravel">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-bricks">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -56,7 +56,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-cement">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-aggregates">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -74,7 +74,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-insulation">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-construction">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -93,7 +93,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-roofing">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-Wood">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -115,7 +115,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-bricks">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-insulation">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -142,7 +142,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-bricks">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-roofing">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -162,7 +162,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-bricks">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-chemicals">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -183,7 +183,7 @@ const Products = () => {
                         </div>
                     </article>
 
-                    <article className={`${styles.materialCard} reveal`} data-testid="material-bricks">
+                    <article className={`${styles.materialCard} reveal`} data-testid="material-other">
                         <div className={styles.materialCardContent}>
                             <div className={styles.materialCardIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
